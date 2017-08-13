@@ -192,7 +192,7 @@ var Purchase = React.createClass({
 								      	<input type="text" className="form-control" id="cv_code" data-text="CV code" />
 								    </div>
 								</div>
-								<button type="submit" className="btn btn-primary" onClick={this.handleClick}>Purchase</button>
+								<button className="btn btn-primary" onClick={this.handleClick}>Purchase</button>
 							</form>
 						</div>
 					</div>
