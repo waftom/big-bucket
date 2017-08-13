@@ -1,0 +1,124 @@
+h1, h2, h3 {
+    font-weight: bold;
+}
+img {
+    margin-top: -15px;
+    margin-left: -15px;
+    width: 130px;
+}
+.navbar {
+    border-bottom: 1px solid #ccc !important;
+}
+table {
+    margin: 0 auto !important;
+    /*max-width: 800px !important;*/
+}
+table img {
+    padding: 15px 10px 0 10px;
+}
+table thead tr th {
+    font-size: 20px;
+}
+table tbody tr td {
+    vertical-align: middle !important;
+}
+input[type="checkbox"] {
+    width: 25px;
+    height: 25px;
+}
+#buy {
+    float: right;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 30px;
+    margin: 30px 0;
+}
+#restore {
+    float: left;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 30px;
+    margin: 30px 0;
+    background-color: #868e96;
+    color: #fff;
+}
+.bold {
+    font-weight: bold;
+}
+#err_msg {
+    display: none;
+    position: fixed;
+    top: 30%;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: bold;
+    left: 50%;
+    padding: 20px;
+    border: 3px solid #ccc;
+    background-color: #f6f6f6;
+    border-radius: 10px;
+    box-shadow: 8px 8px 15px #777;
+}
+#err_msg button {
+    float: right;
+}
+.selected_imgs {
+    float: left;
+    padding-right: 15px;
+    margin: 20px 0 50px 0;
+}
+.selected_imgs img {
+    width: 250px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+@media (max-width: 992px) {
+    .navbar {
+        min-height: 35px !important;
+        overflow: hidden !important;
+    }
+    .nav-float {
+        float: left;
+    }
+    .navbar img {
+        width: 100px !important;
+    }
+    .navbar ul li a {
+        font-size: 16px !important;
+        padding-top: 0px;
+        float: left;
+    }
+    .nav > li {
+        float: left;
+    }
+}
+@media (max-width: 500px) {
+    .navbar {
+        min-height: 35px !important;
+        overflow: hidden !important;
+    }
+    .nav-float {
+        float: left;
+    }
+    .navbar img {
+        width: 130px !important;
+    }
+    .navbar ul li a {
+        font-size: 16px !important;
+        padding-top: 10px;
+        float: left;
+    }
+    .nav > li {
+        float: left;
+    }
+    table img {
+        width: 150px !important;
+    }
+    table h4 {
+        font-size: 16px !important;
+        margin-top: 15px !important;
+    }
+    table th {
+        font-size: 16px !important;
+    }
+}
